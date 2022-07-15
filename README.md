@@ -1,8 +1,6 @@
 
 
-
 ![UTIn3D Logo](/Data/logo.jpg)
-
 
 ## 
 
