@@ -3,9 +3,10 @@
 
 ![UTIn3D Logo](/Data/logo.jpg)
 
-Created by Hugues THOMAS
 
-## Introduction
+## 
+
+This is the homepage for University of Toronto Indoor 3D Dataset
 
 This repository contains the implementation of **Kernel Point Convolution** (KPConv) in [PyTorch](https://pytorch.org/).
 
