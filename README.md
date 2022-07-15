@@ -1,8 +1,10 @@
 
 
-![UTIn3D Logo](/Data/logo.jpg)
+![UTIn3D Logo](/Assets/logo.jpg)
 
 ## 
+
+![UTIn3D Mosaic](Assets/mosaic.gif)
 
 This is the homepage for University of Toronto Indoor 3D Dataset
 
