@@ -1,7 +1,7 @@
 
 
 
-![Intro figure](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/doc/Github_intro.png)
+![Intro figure](https://github.com/utiasASRL/UTIn3D/blob/master/Data/logo.jpg)
 
 Created by Hugues THOMAS
 
