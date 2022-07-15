@@ -1,7 +1,7 @@
 
 
 
-![Intro figure](https://github.com/utiasASRL/UTIn3D/blob/master/Data/logo.jpg)
+![UTIn3D Logo](/Data/logo.jpg)
 
 Created by Hugues THOMAS
 
