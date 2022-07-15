@@ -6,16 +6,18 @@
 
 ![UTIn3D Mosaic](Assets/mosaic.gif)
 
-This is the homepage for University of Toronto Indoor 3D Dataset
+## 
 
-This repository contains the implementation of **Kernel Point Convolution** (KPConv) in [PyTorch](https://pytorch.org/).
+### University of Toronto Indoor 3D Dataset
 
-KPConv is also available in [Tensorflow](https://github.com/HuguesTHOMAS/KPConv) (original but older implementation).
+This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A dataset 
 
-Another implementation of KPConv is available in [PyTorch-Points-3D](https://github.com/nicolas-chaulet/torch-points3d)
- 
-KPConv is a point convolution operator presented in our ICCV2019 paper ([arXiv](https://arxiv.org/abs/1904.08889)). If you find our work useful in your 
-research, please consider citing:
+## Downlaod links
+
+This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are provided in [INSTALL.md](./INSTALL.md).
+
+
+### References
 
 ```
 @article{thomas2019KPConv,
@@ -24,11 +26,24 @@ research, please consider citing:
     Journal = {Proceedings of the IEEE International Conference on Computer Vision},
     Year = {2019}
 }
+
+@inproceedings{thomas2021self,
+  title={Self-Supervised Learning of Lidar Segmentation for Autonomous Indoor Navigation},
+  author={Thomas, Hugues and Agro, Ben and Gridseth, Mona and Zhang, Jian and Barfoot, Timothy D},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{thomas2022learning,
+  title={Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes},
+  author={Thomas, Hugues and Aurin, Matthieu Gallet de Saint and Zhang, Jian and Barfoot, Timothy D},
+  booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2022},
+  organization={IEEE}
+}
+
+
+
+
 ```
-
-## Installation
-
-This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are provided in [INSTALL.md](./INSTALL.md).
-
-
-## Experiments
