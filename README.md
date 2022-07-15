@@ -10,9 +10,13 @@
 
 ### University of Toronto Indoor 3D Dataset
 
-This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A dataset 
+This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A robot navigatio ndataset in crowded indoor environment.
 
-## Downlaod links
+It includes the lidar frames, their localization computed by our ICP based algorithm PointMap, and the labels provided by our automated annotation approach.
+
+## 
+
+### Downlaod links
 
 This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are provided in [INSTALL.md](./INSTALL.md).
 
