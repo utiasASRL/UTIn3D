@@ -16,7 +16,7 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 ## 
 
-### Downlaod links
+### Download links
 
 TODO
 
@@ -25,7 +25,6 @@ TODO
 ### References
 
 ```
-
 @inproceedings{thomas2021self,
   title={Self-Supervised Learning of Lidar Segmentation for Autonomous Indoor Navigation},
   author={Thomas, Hugues and Agro, Ben and Gridseth, Mona and Zhang, Jian and Barfoot, Timothy D},
@@ -33,7 +32,9 @@ TODO
   year={2021},
   organization={IEEE}
 }
+```
 
+```
 @inproceedings{thomas2022learning,
   title={Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes},
   author={Thomas, Hugues and Aurin, Matthieu Gallet de Saint and Zhang, Jian and Barfoot, Timothy D},
@@ -41,6 +42,4 @@ TODO
   year={2022},
   organization={IEEE}
 }
-
-
 ```
