@@ -4,13 +4,13 @@
 
 ## 
 
-![UTIn3D Mosaic](Assets/mosaic.gif)
+![UTIn3D Mosaic](Assets/mosaic_1080p.gif)
 
 ## 
 
 ### University of Toronto Indoor 3D Dataset
 
-This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A robot navigatio ndataset in crowded indoor environment.
+This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A robot navigation dataset in crowded indoor environment.
 
 It includes the lidar frames, their localization computed by our ICP based algorithm PointMap, and the labels provided by our automated annotation approach.
 
@@ -18,18 +18,13 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 ### Downlaod links
 
-This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are provided in [INSTALL.md](./INSTALL.md).
+TODO
 
+## 
 
 ### References
 
 ```
-@article{thomas2019KPConv,
-    Author = {Thomas, Hugues and Qi, Charles R. and Deschaud, Jean-Emmanuel and Marcotegui, Beatriz and Goulette, Fran{\c{c}}ois and Guibas, Leonidas J.},
-    Title = {KPConv: Flexible and Deformable Convolution for Point Clouds},
-    Journal = {Proceedings of the IEEE International Conference on Computer Vision},
-    Year = {2019}
-}
 
 @inproceedings{thomas2021self,
   title={Self-Supervised Learning of Lidar Segmentation for Autonomous Indoor Navigation},
@@ -46,8 +41,6 @@ This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are 
   year={2022},
   organization={IEEE}
 }
-
-
 
 
 ```
