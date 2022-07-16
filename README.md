@@ -18,6 +18,8 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 ### Download links
 
+#### Option 1: Google Drive links
+
 
 | Data | Size Compressed | Size Uncompressed | Google Drive |
 | :--- | :---: | :---: | :---: |
@@ -25,12 +27,23 @@ It includes the lidar frames, their localization computed by our ICP based algor
 | UTIn3D_H | ~???GB |  ~243GB | [link](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing) | 
 
 
+#### Option 2: Use the provided download script
+
+
+TODO
+
+
+#### Option 3: Dowload in your python project with gdown
+
+First install gdown.
+
 ```
 pip install --upgrade gdown
 ```
 
-```python
+Then use the following lines to download the data
 
+```python
 import gdown
 
 # Links to the data
