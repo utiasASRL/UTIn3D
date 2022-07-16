@@ -18,7 +18,32 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 ### Download links
 
-TODO
+UTIn3D_A =  https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing
+
+UTIn3D_H =  https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing
+
+
+```
+pip install --upgrade gdown
+```
+
+```python
+
+import gdown
+
+# Links to the data
+UTIn3D_A_url = 'https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing'
+UTIn3D_H_url = 'https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing'
+
+# Downlaod with gdown
+gdown.download_folder(UTIn3D_A_url, quiet=True, use_cookies=False)
+gdown.download_folder(UTIn3D_H_url, quiet=True, use_cookies=False)
+
+# # same as the above, and you can copy-and-paste a URL from Google Drive with fuzzy=True
+# url = "https://drive.google.com/file/d/0B9P1L--7Wd2vNm9zMTJWOGxobkU/view?usp=sharing"
+# gdown.download(url=url, output=output, quiet=False, fuzzy=True)
+
+```
 
 ## 
 
