@@ -18,9 +18,8 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 ### Download links
 
-UTIn3D_A =  https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing
-
-UTIn3D_H =  https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing
+[UTIn3D_A](https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing)
+[UTIn3D_H](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing)
 
 
 ```
