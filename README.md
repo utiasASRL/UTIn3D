@@ -33,7 +33,7 @@ It includes the lidar frames, their localization computed by our ICP based algor
 TODO
 
 
-#### Option 3: Dowload in your python project with gdown
+#### Option 3: Download in your python project with gdown
 
 First install gdown.
 
@@ -44,20 +44,29 @@ pip install --upgrade gdown
 Then use the following lines to download the data
 
 ```python
+import os
 import gdown
+import shutil
 
 # Links to the data
-UTIn3D_A_url = 'https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing'
-UTIn3D_H_url = 'https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing'
+UTIn3D_A_url = 'https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t'
+UTIn3D_H_url = 'https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a'
+
+# Path where you want your folder to be saved
+UTIn3D_A_path = 'YOUR/PATH/HERE/UTIn3D_A'
+UTIn3D_H_path = 'YOUR/PATH/HERE/UTIn3D_H'
 
 # Downlaod with gdown
-gdown.download_folder(UTIn3D_A_url, quiet=True, use_cookies=False)
-gdown.download_folder(UTIn3D_H_url, quiet=True, use_cookies=False)
+gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=True, use_cookies=False)
+gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=True, use_cookies=False)
 
-# # same as the above, and you can copy-and-paste a URL from Google Drive with fuzzy=True
-# url = "https://drive.google.com/file/d/0B9P1L--7Wd2vNm9zMTJWOGxobkU/view?usp=sharing"
-# gdown.download(url=url, output=output, quiet=False, fuzzy=True)
-
+# Unzip files
+folders = ['annotated_frames', 'annotation', 'calibration', 'collisions', 'runs', 'slam_offline']
+for path in [UTIn3D_A_path, UTIn3D_H_path]:
+    for folder in folders:
+        folder_path = os.path.join(path, folder)
+        zipfile = folder_path + '.zip'
+        shutil.unpack_archive(zipfile, folder_path)
 ```
 
 ## 
