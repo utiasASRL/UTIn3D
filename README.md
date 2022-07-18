@@ -104,10 +104,7 @@ for path in [UTIn3D_A_path, UTIn3D_H_path]:
 
 ### References
 
-
 ##### Paper #1: [Self-Supervised Learning of Lidar Segmentation for Autonomous Indoor Navigation (ICRA 2021)](https://arxiv.org/pdf/2012.05897.pdf)
-
-Annotation and learning of 3D lidar point clouds. Bibtex:
 
 ```
 @inproceedings{thomas2021self,
@@ -119,10 +116,7 @@ Annotation and learning of 3D lidar point clouds. Bibtex:
 }
 ```
 
-
 ##### Paper #2: [Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes (ICRA 2022)](https://arxiv.org/pdf/2108.10585.pdf)
-
-Annotation and learning of SOGM in simulation. Bibtex:
 
 ```
 @inproceedings{thomas2022learning,
@@ -135,8 +129,6 @@ Annotation and learning of SOGM in simulation. Bibtex:
 ```
 
 ##### Paper #3: Incoming
-
-Using SOGM for navigation in simualtion and real world. Bibtex:
 
 ```
 Incoming
