@@ -43,16 +43,15 @@ if __name__ == '__main__':
     # Path where you want your folder to be saved
     UTIn3D_A_path = '../Data/UTIn3D_A'
     UTIn3D_H_path = '../Data/UTIn3D_H'
-    
 
-    # Downlaod with gdown
-    # print('Download UTIn3D_A:')
-    # print('******************\n')
-    # gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=False, use_cookies=False)
 
-    # print('Download UTIn3D_H:')
-    # print('******************\n')
-    # gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=False, use_cookies=False)
+    # Download with gdown
+    print('\nDownload UTIn3D_A:')
+    print('******************\n')
+    gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=False, use_cookies=False)
+    print('\nDownload UTIn3D_H:')
+    print('******************\n')
+    gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=False, use_cookies=False)
     
     # Unzip files
     folders = ['annotated_frames', 'annotation', 'calibration', 'collisions', 'runs', 'slam_offline']
