@@ -1,4 +1,5 @@
 
+.gitignore
 Scripts/run_in_pytorch.sh
 Data/*
 
