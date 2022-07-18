@@ -58,13 +58,15 @@ if __name__ == '__main__':
     for path in [UTIn3D_A_path, UTIn3D_H_path]:
         for folder in folders:
 
-            # Unpack
+            # Downloaded file name
             folder_path = os.path.join(path, folder)
             zipfile = folder_path + '.zip'
-            shutil.unpack_archive(zipfile, folder_path)
-
-            # Now remove the file to save space
             if os.path.exists(zipfile):
+                
+                # Unpack
+                shutil.unpack_archive(zipfile, folder_path)
+
+                # Now remove the file to save space
                 os.remove(zipfile)
 
 
