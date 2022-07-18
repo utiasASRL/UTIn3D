@@ -71,8 +71,8 @@ UTIn3D_A_path = 'YOUR/PATH/HERE/UTIn3D_A'
 UTIn3D_H_path = 'YOUR/PATH/HERE/UTIn3D_H'
 
 # Downlaod with gdown
-gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=True, use_cookies=False)
-gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=True, use_cookies=False)
+gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=False, use_cookies=False)
+gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=False, use_cookies=False)
 
 # Unzip files
 folders = ['annotated_frames', 'annotation', 'calibration', 'collisions', 'runs', 'slam_offline']
@@ -81,6 +81,9 @@ for path in [UTIn3D_A_path, UTIn3D_H_path]:
         folder_path = os.path.join(path, folder)
         zipfile = folder_path + '.zip'
         shutil.unpack_archive(zipfile, folder_path)
+        # # Uncomment if you want he code to remove zip file automatically
+        # if os.path.exists(zipfile):
+        #     os.remove(zipfile)
 ```
 
 ## 
