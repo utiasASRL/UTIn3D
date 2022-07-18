@@ -1,7 +1,9 @@
 
-.gitignore
-Scripts/run_in_pytorch.sh
+
+Scripts/run_*
 Data/*
+.gitignore
+gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
