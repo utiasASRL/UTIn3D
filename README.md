@@ -24,7 +24,7 @@ It includes the lidar frames, their localization computed by our ICP based algor
 | Data | Size Compressed | Size Uncompressed | Google Drive |
 | :--- | :---: | :---: | :---: |
 | UTIn3D_A  | ~122GB |  ~340GB | [link](https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing) | 
-| UTIn3D_H | ~???GB |  ~243GB | [link](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing) | 
+| UTIn3D_H | ~93GB |  ~243GB | [link](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing) | 
 
 
 #### Option 2: Use the provided download script

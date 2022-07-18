@@ -1,0 +1,10 @@
+
+Scripts/run_in_pytorch.sh
+Data/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so

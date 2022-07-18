@@ -42,13 +42,17 @@ if __name__ == '__main__':
     UTIn3D_H_url = 'https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a'
 
     # Path where you want your folder to be saved
-    UTIn3D_A_path = 'Data/UTIn3D_A'
-    UTIn3D_H_path = 'Data/UTIn3D_H'
+    UTIn3D_A_path = '../Data/UTIn3D_A'
+    UTIn3D_H_path = '../Data/UTIn3D_H'
 
     # Downlaod with gdown
+    print('Download UTIn3D_A:')
+    print('******************\n')
     gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=True, use_cookies=False)
+    print('Download UTIn3D_H:')
+    print('******************\n')
     gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=True, use_cookies=False)
-
+    
     # Unzip files
     folders = ['annotated_frames', 'annotation', 'calibration', 'collisions', 'runs', 'slam_offline']
     for path in [UTIn3D_A_path, UTIn3D_H_path]:
