@@ -36,7 +36,6 @@ import shutil
 
 if __name__ == '__main__':
 
-
     # Links to the data
     UTIn3D_A_url = 'https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t'
     UTIn3D_H_url = 'https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a'
@@ -44,11 +43,13 @@ if __name__ == '__main__':
     # Path where you want your folder to be saved
     UTIn3D_A_path = '../Data/UTIn3D_A'
     UTIn3D_H_path = '../Data/UTIn3D_H'
+    
 
     # Downlaod with gdown
     # print('Download UTIn3D_A:')
     # print('******************\n')
     # gdown.download_folder(UTIn3D_A_url, output=UTIn3D_A_path, quiet=False, use_cookies=False)
+
     # print('Download UTIn3D_H:')
     # print('******************\n')
     # gdown.download_folder(UTIn3D_H_url, output=UTIn3D_H_path, quiet=False, use_cookies=False)
