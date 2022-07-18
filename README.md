@@ -14,11 +14,21 @@ This is the homepage for University of Toronto Indoor 3D Dataset (UTIn3D). A rob
 
 It includes the lidar frames, their localization computed by our ICP based algorithm PointMap, and the labels provided by our automated annotation approach.
 
+If you use your this dataset, please cite our [journal paper](https://arxiv.org/pdf/2108.10585.pdf) (TODO: Update link and bib)
+
+```
+@inproceedings{thomas2022learning,
+  title={Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes},
+  author={Thomas, Hugues and Aurin, Matthieu Gallet de Saint and Zhang, Jian and Barfoot, Timothy D},
+  booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2022},
+  organization={IEEE}
+}
+```
+
 ## 
 
 ### Download links
-
-#### Option 1: Google Drive links
 
 You can download the files and uncompress them by hand at the location of your choice.
 
@@ -27,7 +37,11 @@ You can download the files and uncompress them by hand at the location of your c
 | UTIn3D_A  | ~122GB |  ~340GB | [link](https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing) | 
 | UTIn3D_H | ~93GB |  ~243GB | [link](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing) | 
 
-#### Option 2: Use the provided download script
+## 
+
+### Download with python
+
+#### Option 1: Use the provided download script
 
 We provide a download script that downloads and uncompress the data automatically.
 
@@ -45,7 +59,7 @@ python3 download.py
 ```
 
 
-#### Option 3: Download in your python project with gdown
+#### Option 2: Download in your python project with gdown
 
 You can inspire from our download script to dowload the data in your own projects
 
@@ -90,6 +104,9 @@ for path in [UTIn3D_A_path, UTIn3D_H_path]:
 
 ### References
 
+
+#### Paper #1: Annotation and learning of 3D lidar point clouds
+
 ```
 @inproceedings{thomas2021self,
   title={Self-Supervised Learning of Lidar Segmentation for Autonomous Indoor Navigation},
@@ -100,6 +117,9 @@ for path in [UTIn3D_A_path, UTIn3D_H_path]:
 }
 ```
 
+
+#### Paper #2: [Annotation and learning of SOGM in simulation](https://arxiv.org/pdf/2108.10585.pdf)
+
 ```
 @inproceedings{thomas2022learning,
   title={Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes},
@@ -108,4 +128,10 @@ for path in [UTIn3D_A_path, UTIn3D_H_path]:
   year={2022},
   organization={IEEE}
 }
+
+
+#### Paper #3: Using SOGM for navigation in simualtion and real world
+
+```
+Incoming
 ```
