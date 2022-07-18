@@ -20,20 +20,34 @@ It includes the lidar frames, their localization computed by our ICP based algor
 
 #### Option 1: Google Drive links
 
+You can download the files and uncompress them by hand at the location of your choice.
 
 | Data | Size Compressed | Size Uncompressed | Google Drive |
 | :--- | :---: | :---: | :---: |
 | UTIn3D_A  | ~122GB |  ~340GB | [link](https://drive.google.com/drive/folders/1fCffwd_Z9v6886LzO9RmkAMGUdaqAX7t?usp=sharing) | 
 | UTIn3D_H | ~93GB |  ~243GB | [link](https://drive.google.com/drive/folders/1-XRsO3V5yh6iSZgznRORKP7RoKbWSi2a?usp=sharing) | 
 
-
 #### Option 2: Use the provided download script
 
+We provide a download script that downloads and uncompress the data automatically.
 
-TODO
+First install gdown.
+
+```
+pip3 install --upgrade gdown
+```
+
+Then use the provided script:
+
+```
+cd Scripts
+python3 download.py
+```
 
 
 #### Option 3: Download in your python project with gdown
+
+You can inspire from our download script to dowload the data in your own projects
 
 First install gdown.
 
@@ -41,7 +55,7 @@ First install gdown.
 pip install --upgrade gdown
 ```
 
-Then use the following lines to download the data
+Then use the following lines to download the data where your project needs it.
 
 ```python
 import os
